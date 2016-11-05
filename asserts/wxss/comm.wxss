@@ -1,0 +1,11 @@
+page {
+    font-family : "微软雅黑";
+}
+
+.bg-white {
+    background:#FFFFFF !important;
+}
+
+.page-icon {
+    background: url(../images/page-icon.png) no-repeat 0 center;
+}

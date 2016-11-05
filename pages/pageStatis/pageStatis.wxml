@@ -1,0 +1,119 @@
+<view class="bg-white wrap">
+    <view class="page-heading">
+        <view class="icon-wrap"><image src="../../asserts/images/page-icon.png" style="width:20px;height:20px;vertical-align:-3px"></image></view>
+        <!-- <image src="../../asserts/images/page-icon.png" style="width:20px;height:20px;"></image> -->
+        <text class="head-title">页面列表</text>
+    </view>
+
+    <view class="page-content">
+        <view class="page-list-info list-blue" data-pageid="222" bindtap="gotoDetail">
+            <view class="info-left">
+                <view class="text-title">逆战回流活动</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-red">
+            <view class="info-left">
+                <view class="text-title">NBA特权上线活动页面</view>
+                <view class="text-title font-small text-bottom">-已结束</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">CF爆破模式升级专题</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">CF-TGP活动总览</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">DNF回流活动第一期</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">DNF回流活动第一期</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-red">
+            <view class="info-left">
+                <view class="text-title">DNF回流活动第一期</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">DNF回流活动第一期</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">DNF回流活动第一期</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+
+        <view class="page-list-info list-blue">
+            <view class="info-left">
+                <view class="text-title">DNF回流活动第一期</view>
+                <view class="text-title font-small text-bottom">-进行中</view>
+            </view>
+            <view class="info-right">
+                <view class="text-title font-small">2016-11-11</view>
+                <view class="text-title font-small">2016-11-01</view>
+            </view>
+        </view>
+    </view>
+</view>
