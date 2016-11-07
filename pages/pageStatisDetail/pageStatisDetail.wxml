@@ -1,5 +1,232 @@
 <view class="table-list-container">
-    <view class="table-list-title">
-        活动内流量数据
+    <view class="page-heading">
+        <view class="icon-wrap"><image src="../../asserts/images/icon-statis.png" style="width:20px;height:20px;vertical-align:-3px"></image></view>
+        <text class="head-title">统计数据</text>
+    </view>
+
+    <view class="table-wrap">
+        <view class="table-title" bindtap="unfoldTable" >
+            <view class="title-header">活动期间浏览量数据</view>
+            <view class="table-unfold" data-show-name="tableShowPuv" data-curfold="unfold">
+                <image src="{{unfoldImgUrlPuv}}"  style="width:20px;height:20px;vertical-align:-3px"></image>
+            </view>
+        </view>
+        <view class="table-content" id="puv-content" style="display:{{tableShowPuv}}">
+            <view class="table-list">
+                <view class="table-list-left">日期</view>
+                <view class="table-list-middle">PV</view>
+                <view class="table-list-right">UV</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="table-wrap">
+        <view class="table-title table-title-blue" bindtap="unfoldTableUserAna">
+            <view class="title-header">用户分析数据</view>
+            <view class="table-unfold" data-curfold="unfold" data-pageid="123">
+                <image src="{{unfoldImgUrlUserAna}}"  style="width:20px;height:20px;vertical-align:-3px"></image>
+            </view>
+        </view>
+        <view class="table-content" id="puv-content" style="display:{{tableShowUserAna}}">
+            <view class="table-list-user">
+                <view class="table-list-time">2016-11-01</view>
+                <view class="table-list-detail">
+                    <view class="table-list-text">参与人数: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                </view>
+            </view>
+            <view class="table-list-user">
+                <view class="table-list-time">2016-11-01</view>
+                <view class="table-list-detail">
+                    <view class="table-list-text">参与人数: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                </view>
+            </view>
+            <view class="table-list-user">
+                <view class="table-list-time">2016-11-01</view>
+                <view class="table-list-detail">
+                    <view class="table-list-text">参与人数: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                </view>
+            </view>
+            <view class="table-list-user">
+                <view class="table-list-time">2016-11-01</view>
+                <view class="table-list-detail">
+                    <view class="table-list-text">参与人数: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                </view>
+            </view>
+            <view class="table-list-user">
+                <view class="table-list-time">2016-11-01</view>
+                <view class="table-list-detail">
+                    <view class="table-list-text">参与人数: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                    <view class="table-list-text">新进用户: 100</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="table-wrap">
+        <view class="table-title" bindtap="unfoldTableGiftDay" >
+            <view class="title-header">礼包日数据</view>
+            <view class="table-unfold" data-curfold="unfold" data-pageid="123">
+                <image src="{{unfoldImgUrlGiftDay}}"  style="width:20px;height:20px;vertical-align:-3px"></image>
+            </view>
+        </view>
+        <view class="table-content" id="puv-content" style="display:{{tableShowGiftDay}}">
+            <view class="table-list">
+                <view class="table-list-left">日期</view>
+                <view class="table-list-middle">礼包名词</view>
+                <view class="table-list-right">领取量</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="table-wrap">
+        <view class="table-title table-title-blue" bindtap="unfoldTableGiftTotal" >
+            <view class="title-header">礼包总数据</view>
+            <view class="table-unfold" data-curfold="unfold" data-pageid="123">
+                <image src="{{unfoldImgUrlGiftTotal}}"  style="width:20px;height:20px;vertical-align:-3px"></image>
+            </view>
+        </view>
+        <view class="table-content" id="puv-content" style="display:{{tableShowGiftTotal}}">
+            <view class="table-list">
+                <view class="table-list-left">日期</view>
+                <view class="table-list-middle">礼包名词</view>
+                <view class="table-list-right">领取量</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">回流礼包</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="table-wrap">
+        <view class="table-title" bindtap="unfoldTablePuvTotal" >
+            <view class="title-header">总浏览量数据</view>
+            <view class="table-unfold" data-show-name="tableShowPuv" data-curfold="unfold">
+                <image src="{{unfoldImgUrlPuvTotal}}"  style="width:20px;height:20px;vertical-align:-3px"></image>
+            </view>
+        </view>
+        <view class="table-content" id="puv-content" style="display:{{tableShowPuvTotal}}">
+            <view class="table-list">
+                <view class="table-list-left">日期</view>
+                <view class="table-list-middle">PV</view>
+                <view class="table-list-right">UV</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+            <view class="table-list">
+                <view class="table-list-left">2016-11-01</view>
+                <view class="table-list-middle">55,543</view>
+                <view class="table-list-right">5,543</view>
+            </view>
+        </view>
     </view>
 </view>

@@ -11,19 +11,6 @@ page {
     background-color: #f1f1f1;
 }
 
-.page-heading {
-    color : #df6c6e;
-    padding-top: 10px;
-    margin: 10px 0px 0px 10px;
-}
-
-.head-title {
-    margin-left: 5px;
-}
-
-.icon-wrap {
-    display: inline;
-}
 
 /*列表外层容器样式*/
 .page-content {
@@ -33,7 +20,7 @@ page {
 
 .page-list-info {
     color: #31708f;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     margin-bottom: 10px;
 }
 

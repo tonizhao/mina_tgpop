@@ -9,3 +9,21 @@ page {
 .page-icon {
     background: url(../images/page-icon.png) no-repeat 0 center;
 }
+
+.page-heading {
+    color : #a3e1d4;
+    padding-top: 10px;
+    margin: 10px 0px 0px 10px;
+}
+
+.page-icon-statis {
+    background: url(../images/icon-statis.png) no-repeat 0 center;
+}
+
+.icon-wrap {
+    display: inline;
+}
+
+.head-title {
+    margin-left: 5px;
+}

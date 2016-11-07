@@ -1,0 +1,104 @@
+@import "../../asserts/wxss/comm.wxss"
+
+.table-wrap {
+    margin-top: 20px;
+}
+
+/*顶部兰*/
+.table-title {
+    background-color: #e8f9f5;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0 0;
+    color: inherit;
+    margin-bottom: 0px;
+    padding: 10px 10px 7px 7px;
+    min-height: 20px;
+}
+
+.title-header {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    color : #666666;
+}
+
+.table-unfold {
+    float: right;
+}
+
+.table-list {
+    display: block;
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid #e7eaec;
+    color: #676a6c;
+    padding: 10px 0px 20px 0px;
+}
+
+.table-list-left {
+    font-size: 13px;
+    margin-left: 20px;
+    width: 33%;
+    float: left;
+}
+
+.table-list-middle {
+    font-size: 13px;
+    width: 33%;
+    float:left;
+}
+
+.table-list-right {
+    font-size: 13px;
+    float:left;
+}
+
+/*用户分析脚本数据*/
+.table-title-blue {
+    background-color:#f3f6fb;
+}
+
+.table-list-user {
+    display: block;
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid #f3f6fb;
+    color: #676a6c;
+    padding: 0px 0px 0px 0px;
+}
+
+.table-detail-date {
+    padding-bottom: 5px;
+}
+
+.table-list-time {
+    float: left;
+    font-size: 13px;
+    color: #676a6c;
+    text-align: right;
+    margin-left: 50px;
+    color:#1ab394;
+    padding-top: 15px;
+}
+
+.table-list-detail {
+    border-left: 1px solid #e7eaec;
+    margin-left: 120px;
+    padding-left:10px;
+    font-size: 13px;
+    color: #676a6c;
+    padding: 10px 10px 10px 10px;
+}
+
+.table-list-text {
+    margin-bottom: 5px;
+}
+
+.table-list-half {
+    font-size: 13px;
+    margin-left: 20px;
+    width: 50%;
+    float: left;
+}
