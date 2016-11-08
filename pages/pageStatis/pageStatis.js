@@ -1,4 +1,7 @@
 Page({
+    data : {
+        guanzhu : 'none'
+    },
     gotoDetail : function(event) {
         console.log(event);
         console.log(event.currentTarget.dataset);
@@ -12,7 +15,8 @@ Page({
     },
     changePosition : function() {
         this.setData({
-            marginRight : '30px'
+            marginRight : '40px',
+            guanzhu : 'block'
         });
     }
 });

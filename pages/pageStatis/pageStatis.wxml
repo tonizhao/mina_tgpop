@@ -14,7 +14,7 @@
                 <view class="text-title font-small">2016-11-11</view>
                 <view class="text-title font-small">2016-11-01</view>
             </view>
-            <view>关注</view>
+
         </view>
 
         <view class="page-list-info list-red" data-pageid="222" bindtap="gotoDetail">
@@ -114,6 +114,7 @@
                 <view class="text-title font-small">2016-11-11</view>
                 <view class="text-title font-small">2016-11-01</view>
             </view>
+            <view class="page-guanzhu" style="display:{{guanzhu}}">关注</view>
         </view>
     </view>
 </view>

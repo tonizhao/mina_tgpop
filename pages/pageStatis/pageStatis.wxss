@@ -91,3 +91,8 @@ page {
     padding-bottom: 10px;
     font-size: 8px;
 }
+
+.page-guanzhu {
+    position: absolute;
+    margin-left: 295px;
+}
