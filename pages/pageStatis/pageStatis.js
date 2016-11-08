@@ -9,5 +9,10 @@ Page({
         wx.navigateTo({
             url : url
         });
+    },
+    changePosition : function() {
+        this.setData({
+            marginRight : '30px'
+        });
     }
 });
