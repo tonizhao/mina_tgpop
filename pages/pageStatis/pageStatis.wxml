@@ -114,7 +114,7 @@
                 <view class="text-title font-small">2016-11-11</view>
                 <view class="text-title font-small">2016-11-01</view>
             </view>
-            <view class="page-guanzhu" style="display:{{guanzhu}}">关注</view>
+            <view class="page-guanzhu" style="display:{{guanzhu}}"><image src="../../asserts/images/heartbeat.png" style="width:30px;height:30px;"></image></view>
         </view>
     </view>
 </view>
